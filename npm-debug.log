@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose readDependencies loading dependencies from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/package.json
+5 verbose install where, deps [ '/Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth',
+5 verbose install   [ 'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'debug',
+5 verbose install     'express',
+5 verbose install     'jade',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon',
+5 verbose install     'mongodb',
+5 verbose install     'mongoose',
+5 verbose install     'connect-flash',
+5 verbose install     'express-validator',
+5 verbose install     'express-session',
+5 verbose install     'express-messages',
+5 verbose install     'passport',
+5 verbose install     'passport-local',
+5 verbose install     'passport-http',
+5 verbose install     'multer' ] ]
+6 verbose install where, peers [ '/Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/package.json
+8 info preinstall nodeauth@1.0.0
+9 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/bcrypt/package.json
+10 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/body-parser/package.json
+11 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/connect-flash/package.json
+12 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/cookie-parser/package.json
+13 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/debug/package.json
+14 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/express/package.json
+15 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/express-messages/package.json
+16 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/express-session/package.json
+17 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/express-validator/package.json
+18 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/jade/package.json
+19 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/mongodb/package.json
+20 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/mongoose/package.json
+21 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/morgan/package.json
+22 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/multer/package.json
+23 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/passport/package.json
+24 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/passport-http/package.json
+25 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/passport-local/package.json
+26 verbose installManyTop reading scoped package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/serve-favicon/package.json
+27 info package.json bcrypt@0.8.1 No license field.
+28 info package.json cookie-parser@1.3.4 No license field.
+29 info package.json connect-flash@0.1.1 No license field.
+30 info package.json express-validator@2.8.0 No license field.
+31 info package.json mongodb@1.4.34 No license field.
+32 info package.json mongoose@3.8.24 No license field.
+33 info package.json passport@0.2.1 No license field.
+34 info package.json express-messages@0.0.2 No repository field.
+35 info package.json express-messages@0.0.2 No license field.
+36 info package.json passport-http@0.2.2 No license field.
+37 info package.json passport-local@1.0.0 No license field.
+38 verbose readDependencies loading dependencies from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/package.json
+39 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/bcrypt/package.json
+40 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/body-parser/package.json
+41 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/connect-flash/package.json
+42 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/cookie-parser/package.json
+43 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/debug/package.json
+44 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/express/package.json
+45 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/express-messages/package.json
+46 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/express-session/package.json
+47 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/express-validator/package.json
+48 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/jade/package.json
+49 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/mongodb/package.json
+50 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/mongoose/package.json
+51 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/morgan/package.json
+52 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/multer/package.json
+53 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/passport/package.json
+54 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/passport-http/package.json
+55 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/passport-local/package.json
+56 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/serve-favicon/package.json
+57 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/.bin/jade/package.json
+58 verbose targetResolver reading package data from /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/.bin/jade.cmd/package.json
+59 verbose already installed skipping serve-favicon@~2.2.0 /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+60 verbose already installed skipping mongodb@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+61 verbose already installed skipping mongoose@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+62 verbose already installed skipping connect-flash@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+63 verbose already installed skipping express-validator@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+64 verbose already installed skipping express-session@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+65 verbose already installed skipping express-messages@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+66 verbose already installed skipping passport@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+67 verbose already installed skipping passport-local@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+68 verbose already installed skipping passport-http@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+69 verbose already installed skipping multer@* /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+70 verbose already installed skipping body-parser@~1.12.0 /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+71 verbose already installed skipping cookie-parser@~1.3.4 /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+72 verbose already installed skipping debug@~2.1.1 /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+73 verbose already installed skipping express@~4.12.0 /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+74 verbose already installed skipping jade@~1.9.2 /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+75 verbose already installed skipping morgan@~1.5.1 /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+76 silly install resolved []
+77 info build /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+78 info linkStuff nodeauth@1.0.0
+79 silly linkStuff nodeauth@1.0.0 has /Users/lancefallon/Downloads/Logout & Access Control Program Files as its parent node_modules
+80 verbose linkBins nodeauth@1.0.0
+81 verbose linkMans nodeauth@1.0.0
+82 verbose rebuildBundles nodeauth@1.0.0
+83 verbose rebuildBundles [ '.bin',
+83 verbose rebuildBundles   'bcrypt',
+83 verbose rebuildBundles   'body-parser',
+83 verbose rebuildBundles   'connect-flash',
+83 verbose rebuildBundles   'cookie-parser',
+83 verbose rebuildBundles   'debug',
+83 verbose rebuildBundles   'express',
+83 verbose rebuildBundles   'express-messages',
+83 verbose rebuildBundles   'express-session',
+83 verbose rebuildBundles   'express-validator',
+83 verbose rebuildBundles   'jade',
+83 verbose rebuildBundles   'mongodb',
+83 verbose rebuildBundles   'mongoose',
+83 verbose rebuildBundles   'morgan',
+83 verbose rebuildBundles   'multer',
+83 verbose rebuildBundles   'passport',
+83 verbose rebuildBundles   'passport-http',
+83 verbose rebuildBundles   'passport-local',
+83 verbose rebuildBundles   'serve-favicon' ]
+84 verbose rebuild bundle /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/bcrypt
+85 info build /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules/bcrypt
+86 info preinstall bcrypt@0.8.1
+87 info linkStuff bcrypt@0.8.1
+88 silly linkStuff bcrypt@0.8.1 has /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth/node_modules as its parent node_modules
+89 verbose linkBins bcrypt@0.8.1
+90 verbose linkMans bcrypt@0.8.1
+91 verbose rebuildBundles bcrypt@0.8.1
+92 verbose rebuildBundles [ 'bindings', 'nan' ]
+93 info install bcrypt@0.8.1
+94 verbose unsafe-perm in lifecycle true
+95 info bcrypt@0.8.1 Failed to exec install script
+96 verbose stack Error: bcrypt@0.8.1 install: `node-gyp rebuild`
+96 verbose stack Exit status 1
+96 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+96 verbose stack     at emitTwo (events.js:87:13)
+96 verbose stack     at EventEmitter.emit (events.js:172:7)
+96 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+96 verbose stack     at emitTwo (events.js:87:13)
+96 verbose stack     at ChildProcess.emit (events.js:172:7)
+96 verbose stack     at maybeClose (internal/child_process.js:817:16)
+96 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+97 verbose pkgid bcrypt@0.8.1
+98 verbose cwd /Users/lancefallon/Downloads/Logout & Access Control Program Files/nodeauth
+99 error Darwin 14.4.0
+100 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+101 error node v4.1.1
+102 error npm  v2.14.4
+103 error code ELIFECYCLE
+104 error bcrypt@0.8.1 install: `node-gyp rebuild`
+104 error Exit status 1
+105 error Failed at the bcrypt@0.8.1 install script 'node-gyp rebuild'.
+105 error This is most likely a problem with the bcrypt package,
+105 error not with npm itself.
+105 error Tell the author that this fails on your system:
+105 error     node-gyp rebuild
+105 error You can get their info via:
+105 error     npm owner ls bcrypt
+105 error There is likely additional logging output above.
+106 verbose exit [ 1, true ]
